@@ -24,7 +24,7 @@ def apply_coupons(cart, coupons)
       result_arr << cur_item_hash
       result_arr << coupon_item_hash
     else
-      result_arr << cur_item_hash.clone
+      result_arr << cur_item_hash
     end
     
   end
